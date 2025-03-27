@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.back-button,
+.menu-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* STORIES */
+.stories {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid red;
+    background: lightgray;
+}
+
+/* POST */
+.post {
+    width: 90%;
+    margin-top: 10px;
+}
+
+.post-image {
+    width: 100%;
+    height: 500px;
+    background: lightgray;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.save-button {
+    margin-left: auto;
+}
+
+.date {
+    color: gray;
+    font-size: 12px;
+}
+
+.translate {
+    color: blue;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    background: white;
+}
+
+.profile-button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid red;
+    background: lightgray;
+}
